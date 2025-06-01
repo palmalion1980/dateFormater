@@ -1,0 +1,15 @@
+{
+  "name": "datePakage",
+  "version": "1.0.0",
+  "description": "una utilidad para manejar fechas en formato timestamp y longtime",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "date",
+    "nodejs"
+  ],
+  "author": "Marco León Godoy",
+  "license": "MIT"
+}

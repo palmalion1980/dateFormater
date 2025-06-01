@@ -1,0 +1,52 @@
+📄 README.md para datePakage
+
+# 📦 datePakage
+
+Un pequeño y útil paquete de Node.js para formatear fechas y obtener timestamps de manera sencilla, en español o inglés.
+
+---
+
+## 🚀 Instalación
+
+```bash
+npm install datePakage
+
+🧩 Uso
+
+const dateFormatter = require('datePakage');
+
+console.log('Timestamp:', dateFormatter.getTimesTamp());
+console.log('Fecha en español:', dateFormatter.getLongTime('es'));
+console.log('Fecha en inglés:', dateFormatter.getLongTime('en'));
+
+📚 Métodos disponibles
+
+dateFormatter.getTimesTamp();
+// Ejemplo: 1717282912345
+
+getLongTime([idioma])
+
+Devuelve la fecha actual en formato largo.
+
+idioma (opcional): Puedes pasar 'es' para español o 'en' para inglés. Si no se especifica, usa español por defecto.
+
+dateFormatter.getLongTime('es');
+// Ejemplo: "jueves, 1 de junio de 2025"
+
+dateFormatter.getLongTime('en');
+// Ejemplo: "Sunday, June 1, 2025"
+
+📦 Ideal para:
+
+Proyectos que requieren un formato legible de la fecha actual.
+
+Scripts de Node.js que necesiten timestamps o logs con fecha.
+
+Aplicaciones pequeñas donde no se necesita moment.js o date-fns.
+
+📄 Licencia
+
+MIT
+
+✍️ Autor
+Creado por Marco León Godoy
